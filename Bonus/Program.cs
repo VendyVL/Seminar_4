@@ -8,7 +8,7 @@ Console.WriteLine("Введите слово");
 string word = Console.ReadLine();
 int i = 0;
 bool tf = false;
-while ( tf = true || i < word.Length)
+while ( tf = true || i < (word.Length-1))
 {
     tf = word[i] == word[i + 1];
     i++;
